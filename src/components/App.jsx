@@ -1,9 +1,11 @@
-import Counter from './counter.jsx';
+import Counter from './Counter.jsx';
 
-export const App = () => {
+const App = () => {
   return (
     <div>
-      <Counter step={1} />
+      <Counter />
     </div>
   );
 };
+
+export default App;
