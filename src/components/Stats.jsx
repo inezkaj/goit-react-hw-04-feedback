@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import Notification from './Notification.jsx';
+import Notify from './Notify.jsx';
 
-const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+const Stats = ({ good, neutral, bad, total, positivePercentage }) => {
   return total > 0 ? (
     <div>
       <p>Good: {good}</p>
@@ -11,11 +11,11 @@ const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
       <p>Positive feedback:{positivePercentage}%</p>
     </div>
   ) : (
-    <Notification message="There is no feedback"></Notification>
+    <Notify message="There is no feedback"></Notify>
   );
 };
 
-Statistics.propTypes = {
+Stats.propTypes = {
   good: PropTypes.number,
   neutral: PropTypes.number,
   bad: PropTypes.number,
@@ -23,4 +23,4 @@ Statistics.propTypes = {
   positivePercentage: PropTypes.number,
 };
 
-export default Statistics;
+export default Stats;
