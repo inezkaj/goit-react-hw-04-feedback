@@ -1,4 +1,4 @@
-import Statistics from './Statistics.jsx';
+import Stats from './Stats.jsx';
 import FeedbackOptions from './Feedback/FeedbackOptions.jsx';
 import Section from './Section.jsx';
 import { useState } from 'react';
@@ -45,13 +45,13 @@ const Count = () => {
         ></FeedbackOptions>
       </Section>
       <Section title="Statistics">
-        <Statistics
+        <Stats
           good={good}
           neutral={neutral}
           bad={bad}
           total={countTotalFeedback()}
           positivePercentage={countPositiveFeedbackPercentage()}
-        ></Statistics>
+        ></Stats>
       </Section>
     </div>
   );
