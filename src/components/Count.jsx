@@ -3,7 +3,7 @@ import FeedbackOptions from './Feedback/FeedbackOptions';
 import Section from './Section';
 import { useState } from 'react';
 
-const Counter = () => {
+const Count = () => {
   const [good, setGood] = useState(0);
   const [bad, setBad] = useState(0);
   const [neutral, setNeutral] = useState(0);
@@ -57,4 +57,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default Count;

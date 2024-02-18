@@ -1,9 +1,9 @@
-import Counter from './Counter';
+import Count from './Count.jsx';
 
 const App = () => {
   return (
     <div>
-      <Counter />
+      <Count />
     </div>
   );
 };
