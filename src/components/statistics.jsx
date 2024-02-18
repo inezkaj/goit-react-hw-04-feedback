@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import Notification from './Notification';
+import Notification from './Notification.jsx';
 
 const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
   return total > 0 ? (

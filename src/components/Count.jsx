@@ -1,6 +1,6 @@
-import Statistics from './Statistics';
-import FeedbackOptions from './Feedback/FeedbackOptions';
-import Section from './Section';
+import Statistics from './Statistics.jsx';
+import FeedbackOptions from './Feedback/FeedbackOptions.jsx';
+import Section from './Section.jsx';
 import { useState } from 'react';
 
 const Count = () => {
